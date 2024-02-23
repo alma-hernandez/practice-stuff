@@ -4,6 +4,7 @@ import Effect from "./components/Effect";
 import Home from "./components/Home";
 import Memo from "./components/Memo";
 import State from "./components/State";
+import Context from "./components/Context";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/Effect" element= { <Effect/> } />
         <Route path="/Memo" element= { <Memo/> } />
         <Route path="/State" element= { <State/> } />
+        <Route path="/Context" element= { <Context/> } />
       </Routes>
     </div>
   );
