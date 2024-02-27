@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Memo from "./components/Memo";
 import State from "./components/State";
 import HeaderContext from "./components/HeaderContext";
+import { ThemeContext } from "./components/Context"; 
 
 
 function App() {
